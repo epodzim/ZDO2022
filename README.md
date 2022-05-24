@@ -4,21 +4,3 @@ Semetrální práce z předmětu [ZDO v roce 2022](https://nbviewer.jupyter.org/
 
 Autoři:
 Petr Narovec a Eva Podzimková
-
-# Install
-
-```shell
-pip install -r requirements.txt
-```
-
-Or install with conda
-```shell
-conda create -n zdo python scikit-learn scikit-image opencv pytest lxml pandas
-conda activate zdo
-```
-
-# Run tests
-
-```shell
-python -m pytest tests
-```
